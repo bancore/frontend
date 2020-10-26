@@ -1,0 +1,672 @@
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta content="VX2sV8B5roETAbdU" name="fortmatic-site-verification">
+	<link rel="icon" type="image/png" href="socials.png">
+	<meta content="#ffffff" name="msapplication-TileColor">
+	<meta content="/ms-icon-144x144.png" name="msapplication-TileImage">
+	<meta content="#ffffff" name="theme-color">
+	<meta content="#000000" name="theme-color">
+	<meta content="initial-scale=1,minimum-scale=1,width=device-width,shrink-to-fit=yes" name="viewport">
+	<link href="manifest.html" rel="manifest">
+	<title>banCORE | Pairs</title>
+	<link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet">
+</head>
+<style media="screen">
+.MuiToggleButton-sizeSmall {
+	padding: 7px;
+	font-size: 0.8125rem;
+}
+.Tabs {
+    width: 100%;
+    border-bottom: 2px solid transparent;
+    list-style: none;
+		margin-bottom: 24px;
+		margin-right: 24px;
+		margin-left: 24px;
+}
+
+
+.MuiToggleButtonGroup-groupedHorizontal {
+	border-left: 1px solid transparent;
+	margin-left: -1px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+		 border-bottom: 2px solid #f1f1f1;
+}
+
+.MuiToggleButtonGroup-groupedHorizontal:hover {
+border-bottom: 2px solid rgb(66, 66, 66);
+color: #676767;
+}
+.MuiToggleButton-root.Mui-selected {
+	color: #5b6987 !important;
+	border-bottom: 2px solid #1caa52;
+}
+.MuiToggleButtonGroup-groupedHorizontal:not(:last-child) {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+.MuiToggleButtonGroup-root {
+	color: rgb(53, 53, 53);
+}
+.jss324 {
+	display: flex;
+	position: relative;
+	align-items: center;
+	justify-content: space-between;
+	margin-left: 0;
+	padding: 0 24px 0 24px;
+}
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+.MuiTypography-root {
+	margin: 0;
+}
+.MuiTypography-h4 {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.MuiButtonBase-root::-moz-focus-inner {
+	border-style: none;
+}
+@media print {
+	.MuiButtonBase-root {
+		-webkit-print-color-adjust: exact;
+	}
+}
+</style>
+<body>
+		<div style="display: flex; flex-direction: column; min-height: 100vh; align-items: center; background: #f3f5f9;">
+			<div class="jss22 nav_bar">
+				<div class="jss23">
+					<div class="jss24">
+            <a class="logo_area" href="index.html">
+							<img class="logo_symbol" alt="" height="40px" src="full_color_symbol.png">
+              <div>BANCORE-<br>Farming</div>
+					  </a>
+					</div>
+					<div class="jss25">
+						<ol class="breadcrumb">
+						  <li class="breadcrumb-item"><a href="index.html">All Pairs</a></li>
+						  <li class="breadcrumb-item active"><span class="tokenAddress"></span></li>
+						</ol>
+					</div>
+					<div class="jss29 pr_30"><h4 class="MuiTypography-root jss30 MuiTypography-h4 MuiTypography-noWrap" id="metamaskBtn"><span id="metamask" original="#00d395">CONNECT</span><div class="jss32"></div></h4></div>
+				</div>
+			</div>
+			<div class="jss34">
+				<div style="margin-top: 40px; max-width: 900px; margin-left: auto; margin-right: auto;">
+					<div class="tabs_area">
+					<div class="jss324 Tabs">
+	<div aria-label="version" class="MuiToggleButtonGroup-root" role="group">
+		<button aria-label="v1" nav="approval" aria-pressed="false" class="MuiButtonBase-root MuiToggleButton-root MuiToggleButtonGroup-grouped MuiToggleButtonGroup-groupedHorizontal Mui-selected MuiToggleButton-sizeSmall" tabindex="0" type="button" value="0">
+		<h4 class="MuiTypography-root MuiTypography-h4">
+			<span class="MuiToggleButton-label">Approve</span>
+		</h4>
+	</button>
+		<button aria-label="v2" nav="stake" aria-pressed="true" class="MuiButtonBase-root MuiToggleButton-root MuiToggleButtonGroup-grouped MuiToggleButtonGroup-groupedHorizontal MuiToggleButton-sizeSmall" tabindex="0" type="button" value="1">
+		<h4 class="MuiTypography-root MuiTypography-h4"><span class="MuiToggleButton-label">Stake</span></h4></button>
+		<button aria-label="v3"  nav="claim" aria-pressed="false" class="MuiButtonBase-root MuiToggleButton-root MuiToggleButtonGroup-grouped MuiToggleButtonGroup-groupedHorizontal MuiToggleButton-sizeSmall" tabindex="0" type="button" value="2">
+		<h4 class="MuiTypography-root MuiTypography-h4"><span class="MuiToggleButton-label">Claim</span></h4></button>
+		<button aria-label="v3"  nav="withdraw" aria-pressed="false" class="MuiButtonBase-root MuiToggleButton-root MuiToggleButtonGroup-grouped MuiToggleButtonGroup-groupedHorizontal MuiToggleButton-sizeSmall" tabindex="0" type="button" value="2">
+		<h4 class="MuiTypography-root MuiTypography-h4"><span class="MuiToggleButton-label">Withdraw</span></h4></button>
+	</div>
+</div>
+<div class="uni_btns">
+	<a href="#" target="_blank" id="trade-uni" class="is-primary is-outlined uni_button css-m7p9xh" url="#">Trade</a>
+	<a href="#" target="_blank" id="buy-lp" class="is-primary uni_button css-m7p9xh" url="#">Buy LP</a>
+</div>
+</div>
+
+					<div class="MuiPaper-root MuiCard-root jss36 MuiPaper-elevation1 MuiPaper-rounded" id="approval">
+						<div class="jss70">
+							<div class="jss71">
+								<h3 class="MuiTypography-root jss72 MuiTypography-h3">Approval Status</h3>
+								<div class="MuiFormControl-root MuiTextField-root jss74 MuiFormControl-fullWidth">
+									<div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd">
+										<input id="approvalAmount" aria-invalid="false" class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd" disabled placeholder="0.00" type="text" value="0.0000">
+										<div class="MuiInputAdornment-root jss73 MuiInputAdornment-positionEnd">
+											<h3 class="MuiTypography-root MuiTypography-h3"><span class="tokenAddress"></span></h3>
+										</div>
+										<fieldset aria-hidden="true" class="jss66 MuiOutlinedInput-notchedOutline" style="padding-left: 8px;">
+											<legend class="jss67" style="width: 0.01px;"><span>​</span></legend>
+										</fieldset>
+									</div>
+								</div>
+								<div class="jss75">
+
+								</div>
+							</div>
+						</div>
+
+						<div class="jss78">
+	<button id="approvalBtn" class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss64 MuiButton-outlinedPrimary MuiButton-fullWidth" tabindex="0" type="button"><span class="MuiButton-label"><h5 class="MuiTypography-root MuiTypography-h5 MuiTypography-colorSecondary">APPROVE</h5></span><span class="MuiTouchRipple-root"></span></button>
+						</div>
+
+					</div>
+					<div class="MuiPaper-root MuiCard-root jss36 MuiPaper-elevation1 MuiPaper-rounded" id="stake" style="display:none;">
+						<div class="jss70">
+							<div class="jss71">
+								<h3 class="MuiTypography-root jss72 MuiTypography-h3">Send Amount</h3>
+								<div class="MuiFormControl-root MuiTextField-root jss74 MuiFormControl-fullWidth mb_10">
+									<div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd">
+										<input aria-invalid="false" class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd" id="stakeBalance" disabled name="amount" placeholder="0.00" type="text" value="0.0000">
+										<div class="MuiInputAdornment-root jss73 MuiInputAdornment-positionEnd">
+											<h3 class="MuiTypography-root MuiTypography-h3"><span class="tokenAddress"></span></h3>
+										</div>
+										<fieldset aria-hidden="true" class="jss66 MuiOutlinedInput-notchedOutline" style="padding-left: 8px;">
+											<legend class="jss67" style="width: 0.01px;"><span>​</span></legend>
+										</fieldset>
+									</div>
+								</div>
+								<div class="MuiFormControl-root MuiTextField-root jss74 MuiFormControl-fullWidth">
+									<div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd">
+										<input aria-invalid="false" class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd" id="stakeInput" name="amount" placeholder="0.00" type="text" value="0.0000">
+										<div class="MuiInputAdornment-root jss73 MuiInputAdornment-positionEnd">
+											<h3 class="MuiTypography-root MuiTypography-h3"><span class="tokenAddress"></span></h3>
+										</div>
+										<fieldset aria-hidden="true" class="jss66 MuiOutlinedInput-notchedOutline" style="padding-left: 8px;">
+											<legend class="jss67" style="width: 0.01px;"><span>​</span></legend>
+										</fieldset>
+									</div>
+								</div>
+								<div class="jss75">
+									<button class="MuiButtonBase-root MuiButton-root MuiButton-text jss76 MuiButton-textPrimary" tabindex="0" type="button"><span class="MuiButton-label"></span>
+									<h5 class="MuiTypography-root MuiTypography-h5"><span class="MuiButton-label">25%</span></h5><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiButton-root MuiButton-text jss76 MuiButton-textPrimary" tabindex="0" type="button"><span class="MuiButton-label"></span>
+									<h5 class="MuiTypography-root MuiTypography-h5"><span class="MuiButton-label">50%</span></h5><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiButton-root MuiButton-text jss76 MuiButton-textPrimary" tabindex="0" type="button"><span class="MuiButton-label"></span>
+									<h5 class="MuiTypography-root MuiTypography-h5"><span class="MuiButton-label">75%</span></h5><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiButton-root MuiButton-text jss76 MuiButton-textPrimary" tabindex="0" type="button"><span class="MuiButton-label"></span>
+									<h5 class="MuiTypography-root MuiTypography-h5"><span class="MuiButton-label">100%</span></h5><span class="MuiTouchRipple-root"></span></button>
+								</div>
+							</div>
+						</div>
+
+						<div class="jss78">
+	<button id="stakeBtn" class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss64 MuiButton-outlinedPrimary MuiButton-fullWidth" tabindex="0" type="button"><span class="MuiButton-label"><h5 class="MuiTypography-root MuiTypography-h5 MuiTypography-colorSecondary">STAKE</h5></span><span class="MuiTouchRipple-root"></span></button>
+						</div>
+
+					</div>
+					<div class="MuiPaper-root MuiCard-root jss36 MuiPaper-elevation1 MuiPaper-rounded" id="claim" style="display:none;">
+						<div class="jss70">
+							<div class="jss71">
+								<h3 class="MuiTypography-root jss72 MuiTypography-h3">Claim Amount</h3>
+								<div class="MuiFormControl-root MuiTextField-root jss74 MuiFormControl-fullWidth">
+									<div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd">
+										<input disabled aria-invalid="false" class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd" id="claimBalance" name="amount" placeholder="0.00" type="text" value="0.0000">
+										<div class="MuiInputAdornment-root jss73 MuiInputAdornment-positionEnd">
+											<h3 class="MuiTypography-root MuiTypography-h3"><span class="">BAN</span></h3>
+										</div>
+										<fieldset aria-hidden="true" class="jss66 MuiOutlinedInput-notchedOutline" style="padding-left: 8px;">
+											<legend class="jss67" style="width: 0.01px;"><span>​</span></legend>
+										</fieldset>
+									</div>
+								</div>
+								<div class="jss75">
+								</div>
+							</div>
+						</div>
+
+						<div class="jss78">
+	<button  id="claimBtn" class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss64 MuiButton-outlinedPrimary MuiButton-fullWidth" tabindex="0" type="button"><span class="MuiButton-label"><h5 class="MuiTypography-root MuiTypography-h5 MuiTypography-colorSecondary">CLAIM</h5></span><span class="MuiTouchRipple-root"></span></button>
+						</div>
+
+					</div>
+					<div class="MuiPaper-root MuiCard-root jss36 MuiPaper-elevation1 MuiPaper-rounded" id="withdraw" style="display:none;">
+						<div class="jss70">
+							<div class="jss71">
+								<h3 class="MuiTypography-root jss72 MuiTypography-h3">Withdrawal Amount</h3>
+								<div class="MuiFormControl-root MuiTextField-root jss74 MuiFormControl-fullWidth mb_10">
+									<div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd">
+										<input disabled aria-invalid="false" class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd" id="withdrawalAmount" name="amount" placeholder="0.00" type="text" value="0.0000">
+										<div class="MuiInputAdornment-root jss73 MuiInputAdornment-positionEnd">
+											<h3 class="MuiTypography-root MuiTypography-h3"><span class="tokenAddress"></span></h3>
+										</div>
+										<fieldset aria-hidden="true" class="jss66 MuiOutlinedInput-notchedOutline" style="padding-left: 8px;">
+											<legend class="jss67" style="width: 0.01px;"><span>​</span></legend>
+										</fieldset>
+									</div>
+								</div>
+								<div class="MuiFormControl-root MuiTextField-root jss74 MuiFormControl-fullWidth">
+									<div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd">
+										<input aria-invalid="false" class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd" id="withdrawalInput" name="amount" placeholder="0.00" type="text" value="0.0000">
+										<div class="MuiInputAdornment-root jss73 MuiInputAdornment-positionEnd">
+											<h3 class="MuiTypography-root MuiTypography-h3"><span class="tokenAddress"></span></h3>
+										</div>
+										<fieldset aria-hidden="true" class="jss66 MuiOutlinedInput-notchedOutline" style="padding-left: 8px;">
+											<legend class="jss67" style="width: 0.01px;"><span>​</span></legend>
+										</fieldset>
+									</div>
+								</div>
+								<div class="jss75">
+									<button class="MuiButtonBase-root MuiButton-root MuiButton-text jss76 MuiButton-textPrimary" tabindex="0" type="button"><span class="MuiButton-label"></span>
+									<h5 class="MuiTypography-root MuiTypography-h5"><span class="MuiButton-label">25%</span></h5><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiButton-root MuiButton-text jss76 MuiButton-textPrimary" tabindex="0" type="button"><span class="MuiButton-label"></span>
+									<h5 class="MuiTypography-root MuiTypography-h5"><span class="MuiButton-label">50%</span></h5><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiButton-root MuiButton-text jss76 MuiButton-textPrimary" tabindex="0" type="button"><span class="MuiButton-label"></span>
+									<h5 class="MuiTypography-root MuiTypography-h5"><span class="MuiButton-label">75%</span></h5><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiButton-root MuiButton-text jss76 MuiButton-textPrimary" tabindex="0" type="button"><span class="MuiButton-label"></span>
+									<h5 class="MuiTypography-root MuiTypography-h5"><span class="MuiButton-label">100%</span></h5><span class="MuiTouchRipple-root"></span></button>
+								</div>
+							</div>
+						</div>
+
+						<div class="jss78">
+	<button id="withdrawalBtn" class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss64 MuiButton-outlinedPrimary MuiButton-fullWidth" tabindex="0" type="button"><span class="MuiButton-label"><h5 class="MuiTypography-root MuiTypography-h5 MuiTypography-colorSecondary">WITHDRAW</h5></span><span class="MuiTouchRipple-root"></span></button>
+						</div>
+
+					</div>
+					<div class="jss45"></div>
+				</div>
+			</div>
+		</div>
+		<footer style="margin-bottom: 16px; margin-top: 16px;" class="pv4 ph3 ph5-ns tc">
+		<a href="https://twitter.com/bancore" class="link dim gray dib h2 w2 br-100 mr3 " target="_blank" title="Twitter">
+	<svg width="32" height="27" xmlns="http://www.w3.org/2000/svg"><path d="M2 1c4 4 8 8 13 7a6 6 0 017-7 6 6 0 014 2 8 8 0 005-2 8 8 0 01-3 4 8 8 0 004-1 8 8 0 01-4 4 18 18 0 01-18 19 18 18 0 01-10-3 12 12 0 008-3 8 8 0 01-5-4 8 8 0 003-.5A8 8 0 010 9a8 8 0 003 1 8 8 0 01-1-9" fill="#5B6987" fill-rule="nonzero"/></svg>
+		</a>
+		<a href="https://discord.com/invite/#" class="link dim gray dib h2 w2 br-100 mr3 " target="_blank"  title="Discord">
+	<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"><path d="M11.93 4.758l.267.32C7.409 6.46 5.2 8.56 5.2 8.56s.586-.319 1.57-.77c6.128-2.693 13.55-2.692 19.868.77 0 0-2.101-1.994-6.623-3.377l.373-.426h.12c.657.016 3.93.226 7.353 2.793 0 0 .06.108.165.315l.087.173c.852 1.72 3.578 7.792 3.578 15.018 0 0-2.26 3.857-8.138 4.043 0 0-.958-1.144-1.756-2.155 3.484-.984 4.814-3.165 4.814-3.165a15.22 15.22 0 01-3.058 1.57c-5.73 2.406-12.108 1.583-16.597-.931-.054-.036-.7-.391-1.09-.665 0 0 0 .002.003.005l.025.04c.206.311 1.538 2.17 4.626 3.093A169.885 169.885 0 018.739 27.1C2.86 26.914.627 23.057.627 23.057c0-7.226 2.726-13.297 3.578-15.018l.087-.173c.105-.207.165-.315.165-.315 3.422-2.567 6.696-2.777 7.354-2.792l.12-.001zm8.964 9.92c-1.516 0-2.713 1.33-2.713 2.953 0 1.623 1.223 2.952 2.713 2.952 1.516 0 2.713-1.33 2.713-2.952 0-1.622-1.197-2.952-2.713-2.952zm-9.708 0c-1.516 0-2.713 1.33-2.713 2.953 0 1.623 1.223 2.952 2.713 2.952 1.516 0 2.713-1.33 2.713-2.952.026-1.622-1.197-2.952-2.713-2.952z" fill="#5B6987" fill-rule="nonzero"/></svg>
+		</a>
+		<a href="https://t.me/bancore" class="link dim gray dib br-100 h2 w2 mr3 " target="_blank" title="Telegram">
+	<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"><path d="M31.748 5.487L27.08 27.485c-.345 1.56-1.274 1.939-2.57 1.205l-7.11-5.242-3.43 3.303c-.379.379-.7.7-1.434.7l.505-7.237L26.219 8.308c.574-.504-.126-.791-.883-.286L9.05 18.275l-7.019-2.19c-1.525-.482-1.56-1.526.321-2.26L29.775 3.25c1.273-.459 2.386.31 1.973 2.237z" fill="#5B6987" fill-rule="nonzero"/></svg>
+		</a>
+		<a href="https://coinmarketcap.com/currencies/bancore/" class="link dim gray dib br-100 h2 w2 mr3 " target="_blank" title="Coin Market Cap">
+			<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"><path d="M27.414 19.122c-.558.353-1.215.396-1.715.115-.634-.359-.983-1.198-.983-2.364V13.38c0-1.685-.667-2.885-1.781-3.209-1.89-.55-3.31 1.76-3.843 2.629l-3.332 5.4v-6.6c-.037-1.52-.53-2.428-1.467-2.702-.62-.181-1.547-.108-2.448 1.27L4.382 22.153c-.999-1.897-1.52-4.01-1.517-6.153 0-7.219 5.785-13.091 12.895-13.091 7.11 0 12.895 5.872 12.895 13.091 0 .012.003.023.004.035 0 .013-.003.024-.002.036.067 1.398-.385 2.51-1.243 3.052v-.001zm4.106-3.121v-.073C31.48 7.137 24.425 0 15.76 0 7.07 0 0 7.177 0 16c0 8.822 7.07 16 15.76 16a15.58 15.58 0 0010.715-4.267c.58-.546.615-1.466.076-2.055a1.418 1.418 0 00-2.024-.078 12.746 12.746 0 01-8.767 3.491c-3.807 0-7.232-1.685-9.595-4.357l6.73-10.807v4.982c0 2.393.928 3.166 1.706 3.393.78.226 1.97.071 3.22-1.958l3.701-6.001c.119-.194.228-.36.328-.505v3.035c0 2.236.896 4.025 2.458 4.907 1.408.794 3.178.722 4.62-.188 1.748-1.104 2.69-3.139 2.592-5.591z" fill="#5B6987" fill-rule="evenodd"/></svg>
+		</a>
+		<a href="https://www.coingecko.com/en/coins/bancore" class="link dim gray dib br-100 h2 w2 mr3 " target="_blank" title="Coin Gecko">
+			<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"><g transform="translate(1 1)" fill="none" fill-rule="evenodd"><circle stroke="#5B6987" stroke-width="2.016" cx="14.933" cy="14.933" r="14.933"/><path d="M16.37 7.317c1.31 0 2.371.702 2.371 1.568l-.001-.036c.384.168.756.33.895.383.264.102.761.282 1.49.539 3.125.767 4.722 1.945 4.79 3.534 0 .39-.017.875-.203 1.317-.324.768-1.467 2.076-3.43 3.923-1.348 1.428-2.262 2.473-2.743 3.134-.702.966-1.204 2.042-1.557 2.761-.714 1.458-.92 2.842-.62 4.15l-.94.645h-1.914l-2.81-.348-2.556-.907-2.392-1.35-1.338-1.347L3.51 23.56v-.707c.568-1.466.946-2.66 1.134-3.579.188-.92.357-2.398.505-4.435.075-2.546.809-4.36 2.2-5.44a10.381 10.381 0 014.235-1.979c.56-.117.855-.105 1.777-.055.822.045 1.229.126 1.667.228a3.24 3.24 0 011.343-.277zm8.88 8.06s-1.96 1.762-6.071 2.308c-.495.065-1.69.212-2.923-.118-.248-.066-.631-.227-1.15-.482.566.798 1.7 1.175 3.404 1.13 4.152-.448 6.492-2.6 6.72-2.82l.02-.018zm-2.757-1.75a.579.579 0 100 1.157.579.579 0 000-1.157zM12.9 9.669a1.904 1.904 0 100 3.808 1.904 1.904 0 000-3.808z" fill="#5B6987"/></g></svg>
+		</a>
+		<a href="https://etherscan.io/token/0x8ee2e854c7d2561D01dB2dea06F0D68eD89ED9E6" class="link dim gray dib br-100 h2 w2 mr3 " target="_blank" title="Etherscan">
+			<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"><g fill="#5B6987" fill-rule="nonzero"><path d="M6.645 15.218a1.355 1.355 0 011.362-1.355l2.257.007c.75 0 1.357.608 1.357 1.357v8.535c.254-.075.58-.155.937-.24.511-.12.872-.575.872-1.1V11.836c0-.75.608-1.358 1.357-1.358h2.262c.75 0 1.357.608 1.357 1.358v9.825s.566-.229 1.117-.462c.42-.177.692-.587.692-1.042V8.443a1.357 1.357 0 011.357-1.357h2.261c.75 0 1.357.607 1.357 1.357v9.646c1.961-1.421 3.948-3.13 5.525-5.185a2.278 2.278 0 00.347-2.127A15.956 15.956 0 0016.189.001C7.325-.119 0 7.118 0 15.983a15.932 15.932 0 002.123 7.994 2.02 2.02 0 001.927.999c.428-.038.96-.091 1.594-.165a1.13 1.13 0 001.002-1.122v-8.47M6.596 28.906a15.98 15.98 0 0025.38-12.924 16.1 16.1 0 00-.042-1.094c-5.839 8.708-16.62 12.779-25.338 14.019"/></g></svg>
+		</a>
+		<div style="font-weight: 500; color: #5b6987;" class="mt4">
+		<a href="https://medium.com/@bancore/#" class="f6 link dim gray dib mr3 mr4-ns">About/FAQs</a>
+		<a href="mailto:feedback@bancore" class="f6 link dim gray dib mr3 mr4-ns">Send Feedback</a>
+		<a href="https://www.coinbase.com/price/bancore" class="f6 link dim gray dib mr3 mr4-ns">View on Coinbase</a>
+	</div>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+	<script src="https://cdn.rawgit.com/MikeMcl/bignumber.js/7269d028/bignumber.min.js"></script>
+
+       <script src="script.min.js"></script>
+	<script>
+$('.MuiToggleButtonGroup-root > button').on('click', function(e) {
+	$('.Mui-selected').removeClass('Mui-selected');
+	$('div.MuiPaper-root.MuiCard-root.jss36.MuiPaper-elevation1.MuiPaper-rounded').hide();
+	let currentClass = $(e.currentTarget).attr('nav');
+	$("#" + currentClass).show();
+	$(e.currentTarget).addClass('Mui-selected');
+	});
+
+$('div.jss75 > button').on('click', function(e) {
+	 let percentage = $(e.currentTarget.children).closest('h5')[0].innerText;
+	 let input = $(e.currentTarget.children).parent().parent().parent().find('.MuiInputBase-input.MuiOutlinedInput-input')[1];
+	 let value = $($(e.currentTarget.children).parent().parent().parent().find('.MuiInputBase-input.MuiOutlinedInput-input')[0]).val();
+         console.log(value);
+	 value = isNaN(parseFloat(value)) ? 0 : value;
+	 let adjustedVal = (parseFloat(percentage) / 100) * parseFloat(value);
+	 $(input).val(adjustedVal);
+});
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
+$(window).on('load', function() {
+  let params = localStorage.getItem("params");
+  let paramsJSON = JSON.parse(params);
+  if(paramsJSON['token'].slice(0,2) === "0x" && !isNaN(paramsJSON['id'])) {
+    let tradeLink = "https://app.uniswap.org/#/swap/?" + paramsJSON['uni-link'];
+    let input = getParameterByName('inputCurrency', tradeLink);
+    let output = getParameterByName('outputCurrency', tradeLink);
+    let addLiqLink = "https://app.uniswap.org/#/add/" + input + "/" + output;
+    console.log($('#trade-uni'), $('#buy-lp'));
+    $('#trade-uni').attr("href", tradeLink);
+    $('#buy-lp').attr("href", addLiqLink);
+    $('.tokenAddress').text(paramsJSON['name']);
+  }
+});
+	</script>
+</body>
+</html>
+
+
+<!--<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta content="VX2sV8B5roETAbdU" name="fortmatic-site-verification">
+	<link rel="icon" type="image/png" href="socials.png">
+	<meta content="#ffffff" name="msapplication-TileColor">
+	<meta content="/ms-icon-144x144.png" name="msapplication-TileImage">
+	<meta content="#ffffff" name="theme-color">
+	<meta content="#000000" name="theme-color">
+	<meta content="initial-scale=1,minimum-scale=1,width=device-width,shrink-to-fit=yes" name="viewport">
+	<link href="manifest.html" rel="manifest">
+	<title>banCORE | Pairs</title>
+	<link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet">
+</head>
+<style media="screen">
+.MuiToggleButton-sizeSmall {
+	padding: 7px;
+	font-size: 0.8125rem;
+}
+.Tabs {
+    width: 100%;
+    border-bottom: 2px solid transparent;
+    list-style: none;
+		margin-bottom: 24px;
+		margin-right: 24px;
+		margin-left: 24px;
+}
+
+
+.MuiToggleButtonGroup-groupedHorizontal {
+	border-left: 1px solid transparent;
+	margin-left: -1px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+		 border-bottom: 2px solid #f1f1f1;
+}
+
+.MuiToggleButtonGroup-groupedHorizontal:hover {
+border-bottom: 2px solid #999;
+color: #676767;
+}
+.MuiToggleButton-root.Mui-selected {
+	color: #031b4e !important;
+	border-bottom: 2px solid #5ec581;
+}
+.MuiToggleButtonGroup-groupedHorizontal:not(:last-child) {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+.MuiToggleButtonGroup-root {
+	color: #999;
+}
+.jss324 {
+	display: flex;
+	position: relative;
+	align-items: center;
+	justify-content: space-between;
+	margin-left: 0;
+	padding: 0 24px 0 24px;
+}
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+.MuiTypography-root {
+	margin: 0;
+}
+.MuiTypography-h4 {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.MuiButtonBase-root::-moz-focus-inner {
+	border-style: none;
+}
+@media print {
+	.MuiButtonBase-root {
+		-webkit-print-color-adjust: exact;
+	}
+}
+</style>
+<body>
+		<div style="display: flex; flex-direction: column; min-height: 100vh; align-items: center; background: #f3f5f9;">
+			<div class="jss22 nav_bar">
+				<div class="jss23">
+					<div class="jss24">
+            <a class="logo_area" href="index.html">
+							<img class="logo_symbol" alt="" height="40px" src="full_color_symbol.png">
+              <div>banCORE-<br>Farming</div>
+					  </a>
+					</div>
+					<div class="jss25">
+						<ol class="breadcrumb">
+						  <li class="breadcrumb-item"><a href="index.html">All Pairs</a></li>
+						  <li class="breadcrumb-item active"><span class="tokenAddress"></span></li>
+						</ol>
+					</div>
+					<div class="jss29 pr_30"><h4 class="MuiTypography-root jss30 MuiTypography-h4 MuiTypography-noWrap" id="metamaskBtn"><span id="metamask" original="#00d395">CONNECT</span><div class="jss32"></div></h4></div>
+				</div>
+			</div>
+			<div class="jss34">
+				<div style="margin-top: 40px; max-width: 900px; margin-left: auto; margin-right: auto;">
+					<div class="tabs_area">
+					<div class="jss324 Tabs">
+	<div aria-label="version" class="MuiToggleButtonGroup-root" role="group">
+		<button aria-label="v1" nav="approval" aria-pressed="false" class="MuiButtonBase-root MuiToggleButton-root MuiToggleButtonGroup-grouped MuiToggleButtonGroup-groupedHorizontal Mui-selected MuiToggleButton-sizeSmall" tabindex="0" type="button" value="0">
+		<h4 class="MuiTypography-root MuiTypography-h4">
+			<span class="MuiToggleButton-label">Approve</span>
+		</h4>
+	</button>
+		<button aria-label="v2" nav="stake" aria-pressed="true" class="MuiButtonBase-root MuiToggleButton-root MuiToggleButtonGroup-grouped MuiToggleButtonGroup-groupedHorizontal MuiToggleButton-sizeSmall" tabindex="0" type="button" value="1">
+		<h4 class="MuiTypography-root MuiTypography-h4"><span class="MuiToggleButton-label">Stake</span></h4></button>
+		<button aria-label="v3"  nav="claim" aria-pressed="false" class="MuiButtonBase-root MuiToggleButton-root MuiToggleButtonGroup-grouped MuiToggleButtonGroup-groupedHorizontal MuiToggleButton-sizeSmall" tabindex="0" type="button" value="2">
+		<h4 class="MuiTypography-root MuiTypography-h4"><span class="MuiToggleButton-label">Claim</span></h4></button>
+		<button aria-label="v3"  nav="withdraw" aria-pressed="false" class="MuiButtonBase-root MuiToggleButton-root MuiToggleButtonGroup-grouped MuiToggleButtonGroup-groupedHorizontal MuiToggleButton-sizeSmall" tabindex="0" type="button" value="2">
+		<h4 class="MuiTypography-root MuiTypography-h4"><span class="MuiToggleButton-label">Withdraw</span></h4></button>
+	</div>
+</div>
+<div class="uni_btns">
+	<a href="#" target="_blank" id="trade-uni" class="is-primary is-outlined uni_button css-m7p9xh" url="#">Trade</a>
+	<a href="#" target="_blank" id="buy-lp" class="is-primary uni_button css-m7p9xh" url="#">Buy LP</a>
+</div>
+</div>
+
+					<div class="MuiPaper-root MuiCard-root jss36 MuiPaper-elevation1 MuiPaper-rounded" id="approval">
+						<div class="jss70">
+							<div class="jss71">
+								<h3 class="MuiTypography-root jss72 MuiTypography-h3">Approval Status</h3>
+								<div class="MuiFormControl-root MuiTextField-root jss74 MuiFormControl-fullWidth">
+									<div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd">
+										<input id="approvalAmount" aria-invalid="false" class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd" disabled placeholder="0.00" type="text" value="0.0000">
+										<div class="MuiInputAdornment-root jss73 MuiInputAdornment-positionEnd">
+											<h3 class="MuiTypography-root MuiTypography-h3"><span class="tokenAddress"></span></h3>
+										</div>
+										<fieldset aria-hidden="true" class="jss66 MuiOutlinedInput-notchedOutline" style="padding-left: 8px;">
+											<legend class="jss67" style="width: 0.01px;"><span>​</span></legend>
+										</fieldset>
+									</div>
+								</div>
+								<div class="jss75">
+
+								</div>
+							</div>
+						</div>
+
+						<div class="jss78">
+	<button id="approvalBtn" class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss64 MuiButton-outlinedPrimary MuiButton-fullWidth" tabindex="0" type="button"><span class="MuiButton-label"><h5 class="MuiTypography-root MuiTypography-h5 MuiTypography-colorSecondary">APPROVE</h5></span><span class="MuiTouchRipple-root"></span></button>
+						</div>
+
+					</div>
+					<div class="MuiPaper-root MuiCard-root jss36 MuiPaper-elevation1 MuiPaper-rounded" id="stake" style="display:none;">
+						<div class="jss70">
+							<div class="jss71">
+								<h3 class="MuiTypography-root jss72 MuiTypography-h3">Send Amount</h3>
+								<div class="MuiFormControl-root MuiTextField-root jss74 MuiFormControl-fullWidth mb_10">
+									<div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd">
+										<input aria-invalid="false" class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd" id="stakeBalance" disabled name="amount" placeholder="0.00" type="text" value="0.0000">
+										<div class="MuiInputAdornment-root jss73 MuiInputAdornment-positionEnd">
+											<h3 class="MuiTypography-root MuiTypography-h3"><span class="tokenAddress"></span></h3>
+										</div>
+										<fieldset aria-hidden="true" class="jss66 MuiOutlinedInput-notchedOutline" style="padding-left: 8px;">
+											<legend class="jss67" style="width: 0.01px;"><span>​</span></legend>
+										</fieldset>
+									</div>
+								</div>
+								<div class="MuiFormControl-root MuiTextField-root jss74 MuiFormControl-fullWidth">
+									<div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd">
+										<input aria-invalid="false" class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd" id="stakeInput" name="amount" placeholder="0.00" type="text" value="0.0000">
+										<div class="MuiInputAdornment-root jss73 MuiInputAdornment-positionEnd">
+											<h3 class="MuiTypography-root MuiTypography-h3"><span class="tokenAddress"></span></h3>
+										</div>
+										<fieldset aria-hidden="true" class="jss66 MuiOutlinedInput-notchedOutline" style="padding-left: 8px;">
+											<legend class="jss67" style="width: 0.01px;"><span>​</span></legend>
+										</fieldset>
+									</div>
+								</div>
+								<div class="jss75">
+									<button class="MuiButtonBase-root MuiButton-root MuiButton-text jss76 MuiButton-textPrimary" tabindex="0" type="button"><span class="MuiButton-label"></span>
+									<h5 class="MuiTypography-root MuiTypography-h5"><span class="MuiButton-label">25%</span></h5><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiButton-root MuiButton-text jss76 MuiButton-textPrimary" tabindex="0" type="button"><span class="MuiButton-label"></span>
+									<h5 class="MuiTypography-root MuiTypography-h5"><span class="MuiButton-label">50%</span></h5><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiButton-root MuiButton-text jss76 MuiButton-textPrimary" tabindex="0" type="button"><span class="MuiButton-label"></span>
+									<h5 class="MuiTypography-root MuiTypography-h5"><span class="MuiButton-label">75%</span></h5><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiButton-root MuiButton-text jss76 MuiButton-textPrimary" tabindex="0" type="button"><span class="MuiButton-label"></span>
+									<h5 class="MuiTypography-root MuiTypography-h5"><span class="MuiButton-label">100%</span></h5><span class="MuiTouchRipple-root"></span></button>
+								</div>
+							</div>
+						</div>
+
+						<div class="jss78">
+	<button id="stakeBtn" class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss64 MuiButton-outlinedPrimary MuiButton-fullWidth" tabindex="0" type="button"><span class="MuiButton-label"><h5 class="MuiTypography-root MuiTypography-h5 MuiTypography-colorSecondary">STAKE</h5></span><span class="MuiTouchRipple-root"></span></button>
+						</div>
+
+					</div>
+					<div class="MuiPaper-root MuiCard-root jss36 MuiPaper-elevation1 MuiPaper-rounded" id="claim" style="display:none;">
+						<div class="jss70">
+							<div class="jss71">
+								<h3 class="MuiTypography-root jss72 MuiTypography-h3">Claim Amount</h3>
+								<div class="MuiFormControl-root MuiTextField-root jss74 MuiFormControl-fullWidth">
+									<div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd">
+										<input disabled aria-invalid="false" class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd" id="claimBalance" name="amount" placeholder="0.00" type="text" value="0.0000">
+										<div class="MuiInputAdornment-root jss73 MuiInputAdornment-positionEnd">
+											<h3 class="MuiTypography-root MuiTypography-h3"><span class="">BAN</span></h3>
+										</div>
+										<fieldset aria-hidden="true" class="jss66 MuiOutlinedInput-notchedOutline" style="padding-left: 8px;">
+											<legend class="jss67" style="width: 0.01px;"><span>​</span></legend>
+										</fieldset>
+									</div>
+								</div>
+								<div class="jss75">
+								</div>
+							</div>
+						</div>
+
+						<div class="jss78">
+	<button  id="claimBtn" class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss64 MuiButton-outlinedPrimary MuiButton-fullWidth" tabindex="0" type="button"><span class="MuiButton-label"><h5 class="MuiTypography-root MuiTypography-h5 MuiTypography-colorSecondary">CLAIM</h5></span><span class="MuiTouchRipple-root"></span></button>
+						</div>
+
+					</div>
+					<div class="MuiPaper-root MuiCard-root jss36 MuiPaper-elevation1 MuiPaper-rounded" id="withdraw" style="display:none;">
+						<div class="jss70">
+							<div class="jss71">
+								<h3 class="MuiTypography-root jss72 MuiTypography-h3">Withdrawal Amount</h3>
+								<div class="MuiFormControl-root MuiTextField-root jss74 MuiFormControl-fullWidth mb_10">
+									<div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd">
+										<input disabled aria-invalid="false" class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd" id="withdrawalAmount" name="amount" placeholder="0.00" type="text" value="0.0000">
+										<div class="MuiInputAdornment-root jss73 MuiInputAdornment-positionEnd">
+											<h3 class="MuiTypography-root MuiTypography-h3"><span class="tokenAddress"></span></h3>
+										</div>
+										<fieldset aria-hidden="true" class="jss66 MuiOutlinedInput-notchedOutline" style="padding-left: 8px;">
+											<legend class="jss67" style="width: 0.01px;"><span>​</span></legend>
+										</fieldset>
+									</div>
+								</div>
+								<div class="MuiFormControl-root MuiTextField-root jss74 MuiFormControl-fullWidth">
+									<div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd">
+										<input aria-invalid="false" class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd" id="withdrawalInput" name="amount" placeholder="0.00" type="text" value="0.0000">
+										<div class="MuiInputAdornment-root jss73 MuiInputAdornment-positionEnd">
+											<h3 class="MuiTypography-root MuiTypography-h3"><span class="tokenAddress"></span></h3>
+										</div>
+										<fieldset aria-hidden="true" class="jss66 MuiOutlinedInput-notchedOutline" style="padding-left: 8px;">
+											<legend class="jss67" style="width: 0.01px;"><span>​</span></legend>
+										</fieldset>
+									</div>
+								</div>
+								<div class="jss75">
+									<button class="MuiButtonBase-root MuiButton-root MuiButton-text jss76 MuiButton-textPrimary" tabindex="0" type="button"><span class="MuiButton-label"></span>
+									<h5 class="MuiTypography-root MuiTypography-h5"><span class="MuiButton-label">25%</span></h5><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiButton-root MuiButton-text jss76 MuiButton-textPrimary" tabindex="0" type="button"><span class="MuiButton-label"></span>
+									<h5 class="MuiTypography-root MuiTypography-h5"><span class="MuiButton-label">50%</span></h5><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiButton-root MuiButton-text jss76 MuiButton-textPrimary" tabindex="0" type="button"><span class="MuiButton-label"></span>
+									<h5 class="MuiTypography-root MuiTypography-h5"><span class="MuiButton-label">75%</span></h5><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiButton-root MuiButton-text jss76 MuiButton-textPrimary" tabindex="0" type="button"><span class="MuiButton-label"></span>
+									<h5 class="MuiTypography-root MuiTypography-h5"><span class="MuiButton-label">100%</span></h5><span class="MuiTouchRipple-root"></span></button>
+								</div>
+							</div>
+						</div>
+
+						<div class="jss78">
+	<button id="withdrawalBtn" class="MuiButtonBase-root MuiButton-root MuiButton-outlined jss64 MuiButton-outlinedPrimary MuiButton-fullWidth" tabindex="0" type="button"><span class="MuiButton-label"><h5 class="MuiTypography-root MuiTypography-h5 MuiTypography-colorSecondary">WITHDRAW</h5></span><span class="MuiTouchRipple-root"></span></button>
+						</div>
+
+					</div>
+					<div class="jss45"></div>
+				</div>
+			</div>
+		</div>
+		<footer style="margin-bottom: 16px; margin-top: 16px;" class="pv4 ph3 ph5-ns tc">
+		<a href="https://twitter.com/bancore" class="link dim gray dib h2 w2 br-100 mr3 " target="_blank" title="Twitter">
+	<svg width="32" height="27" xmlns="http://www.w3.org/2000/svg"><path d="M2 1c4 4 8 8 13 7a6 6 0 017-7 6 6 0 014 2 8 8 0 005-2 8 8 0 01-3 4 8 8 0 004-1 8 8 0 01-4 4 18 18 0 01-18 19 18 18 0 01-10-3 12 12 0 008-3 8 8 0 01-5-4 8 8 0 003-.5A8 8 0 010 9a8 8 0 003 1 8 8 0 01-1-9" fill="#5B6987" fill-rule="nonzero"/></svg>
+		</a>
+		<a href="https://discord.com/invite/9RhP7u6" class="link dim gray dib h2 w2 br-100 mr3 " target="_blank"  title="Discord">
+	<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"><path d="M11.93 4.758l.267.32C7.409 6.46 5.2 8.56 5.2 8.56s.586-.319 1.57-.77c6.128-2.693 13.55-2.692 19.868.77 0 0-2.101-1.994-6.623-3.377l.373-.426h.12c.657.016 3.93.226 7.353 2.793 0 0 .06.108.165.315l.087.173c.852 1.72 3.578 7.792 3.578 15.018 0 0-2.26 3.857-8.138 4.043 0 0-.958-1.144-1.756-2.155 3.484-.984 4.814-3.165 4.814-3.165a15.22 15.22 0 01-3.058 1.57c-5.73 2.406-12.108 1.583-16.597-.931-.054-.036-.7-.391-1.09-.665 0 0 0 .002.003.005l.025.04c.206.311 1.538 2.17 4.626 3.093A169.885 169.885 0 018.739 27.1C2.86 26.914.627 23.057.627 23.057c0-7.226 2.726-13.297 3.578-15.018l.087-.173c.105-.207.165-.315.165-.315 3.422-2.567 6.696-2.777 7.354-2.792l.12-.001zm8.964 9.92c-1.516 0-2.713 1.33-2.713 2.953 0 1.623 1.223 2.952 2.713 2.952 1.516 0 2.713-1.33 2.713-2.952 0-1.622-1.197-2.952-2.713-2.952zm-9.708 0c-1.516 0-2.713 1.33-2.713 2.953 0 1.623 1.223 2.952 2.713 2.952 1.516 0 2.713-1.33 2.713-2.952.026-1.622-1.197-2.952-2.713-2.952z" fill="#5B6987" fill-rule="nonzero"/></svg>
+		</a>
+		<a href="https://t.me/bancore" class="link dim gray dib br-100 h2 w2 mr3 " target="_blank" title="Telegram">
+	<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"><path d="M31.748 5.487L27.08 27.485c-.345 1.56-1.274 1.939-2.57 1.205l-7.11-5.242-3.43 3.303c-.379.379-.7.7-1.434.7l.505-7.237L26.219 8.308c.574-.504-.126-.791-.883-.286L9.05 18.275l-7.019-2.19c-1.525-.482-1.56-1.526.321-2.26L29.775 3.25c1.273-.459 2.386.31 1.973 2.237z" fill="#5B6987" fill-rule="nonzero"/></svg>
+		</a>
+		<a href="https://coinmarketcap.com/currencies/bancore/" class="link dim gray dib br-100 h2 w2 mr3 " target="_blank" title="Coin Market Cap">
+			<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"><path d="M27.414 19.122c-.558.353-1.215.396-1.715.115-.634-.359-.983-1.198-.983-2.364V13.38c0-1.685-.667-2.885-1.781-3.209-1.89-.55-3.31 1.76-3.843 2.629l-3.332 5.4v-6.6c-.037-1.52-.53-2.428-1.467-2.702-.62-.181-1.547-.108-2.448 1.27L4.382 22.153c-.999-1.897-1.52-4.01-1.517-6.153 0-7.219 5.785-13.091 12.895-13.091 7.11 0 12.895 5.872 12.895 13.091 0 .012.003.023.004.035 0 .013-.003.024-.002.036.067 1.398-.385 2.51-1.243 3.052v-.001zm4.106-3.121v-.073C31.48 7.137 24.425 0 15.76 0 7.07 0 0 7.177 0 16c0 8.822 7.07 16 15.76 16a15.58 15.58 0 0010.715-4.267c.58-.546.615-1.466.076-2.055a1.418 1.418 0 00-2.024-.078 12.746 12.746 0 01-8.767 3.491c-3.807 0-7.232-1.685-9.595-4.357l6.73-10.807v4.982c0 2.393.928 3.166 1.706 3.393.78.226 1.97.071 3.22-1.958l3.701-6.001c.119-.194.228-.36.328-.505v3.035c0 2.236.896 4.025 2.458 4.907 1.408.794 3.178.722 4.62-.188 1.748-1.104 2.69-3.139 2.592-5.591z" fill="#5B6987" fill-rule="evenodd"/></svg>
+		</a>
+		<a href="https://www.coingecko.com/en/coins/bancore-io" class="link dim gray dib br-100 h2 w2 mr3 " target="_blank" title="Coin Gecko">
+			<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"><g transform="translate(1 1)" fill="none" fill-rule="evenodd"><circle stroke="#5B6987" stroke-width="2.016" cx="14.933" cy="14.933" r="14.933"/><path d="M16.37 7.317c1.31 0 2.371.702 2.371 1.568l-.001-.036c.384.168.756.33.895.383.264.102.761.282 1.49.539 3.125.767 4.722 1.945 4.79 3.534 0 .39-.017.875-.203 1.317-.324.768-1.467 2.076-3.43 3.923-1.348 1.428-2.262 2.473-2.743 3.134-.702.966-1.204 2.042-1.557 2.761-.714 1.458-.92 2.842-.62 4.15l-.94.645h-1.914l-2.81-.348-2.556-.907-2.392-1.35-1.338-1.347L3.51 23.56v-.707c.568-1.466.946-2.66 1.134-3.579.188-.92.357-2.398.505-4.435.075-2.546.809-4.36 2.2-5.44a10.381 10.381 0 014.235-1.979c.56-.117.855-.105 1.777-.055.822.045 1.229.126 1.667.228a3.24 3.24 0 011.343-.277zm8.88 8.06s-1.96 1.762-6.071 2.308c-.495.065-1.69.212-2.923-.118-.248-.066-.631-.227-1.15-.482.566.798 1.7 1.175 3.404 1.13 4.152-.448 6.492-2.6 6.72-2.82l.02-.018zm-2.757-1.75a.579.579 0 100 1.157.579.579 0 000-1.157zM12.9 9.669a1.904 1.904 0 100 3.808 1.904 1.904 0 000-3.808z" fill="#5B6987"/></g></svg>
+		</a>
+		<a href="https://etherscan.io/token/0x6768063279E2B185Dc0c972b97f11f231d0B45ad" class="link dim gray dib br-100 h2 w2 mr3 " target="_blank" title="Etherscan">
+			<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"><g fill="#5B6987" fill-rule="nonzero"><path d="M6.645 15.218a1.355 1.355 0 011.362-1.355l2.257.007c.75 0 1.357.608 1.357 1.357v8.535c.254-.075.58-.155.937-.24.511-.12.872-.575.872-1.1V11.836c0-.75.608-1.358 1.357-1.358h2.262c.75 0 1.357.608 1.357 1.358v9.825s.566-.229 1.117-.462c.42-.177.692-.587.692-1.042V8.443a1.357 1.357 0 011.357-1.357h2.261c.75 0 1.357.607 1.357 1.357v9.646c1.961-1.421 3.948-3.13 5.525-5.185a2.278 2.278 0 00.347-2.127A15.956 15.956 0 0016.189.001C7.325-.119 0 7.118 0 15.983a15.932 15.932 0 002.123 7.994 2.02 2.02 0 001.927.999c.428-.038.96-.091 1.594-.165a1.13 1.13 0 001.002-1.122v-8.47M6.596 28.906a15.98 15.98 0 0025.38-12.924 16.1 16.1 0 00-.042-1.094c-5.839 8.708-16.62 12.779-25.338 14.019"/></g></svg>
+		</a>
+		<div style="font-weight: 500; color: #5b6987;" class="mt4">
+		<a href="https://medium.com/@bancore/#" class="f6 link dim gray dib mr3 mr4-ns">About/FAQs</a>
+		<a href="mailto:feedback@bancore.io" class="f6 link dim gray dib mr3 mr4-ns">Send Feedback</a>
+		<a href="https://www.coinbase.com/price/bancore-io" class="f6 link dim gray dib mr3 mr4-ns">View on Coinbase</a>
+	</div>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+	<script src="https://cdn.rawgit.com/MikeMcl/bignumber.js/7269d028/bignumber.min.js"></script>
+
+       <script src="script.min.js"></script>
+	<script>
+$('.MuiToggleButtonGroup-root > button').on('click', function(e) {
+	$('.Mui-selected').removeClass('Mui-selected');
+	$('div.MuiPaper-root.MuiCard-root.jss36.MuiPaper-elevation1.MuiPaper-rounded').hide();
+	let currentClass = $(e.currentTarget).attr('nav');
+	$("#" + currentClass).show();
+	$(e.currentTarget).addClass('Mui-selected');
+	});
+
+$('div.jss75 > button').on('click', function(e) {
+	 let percentage = $(e.currentTarget.children).closest('h5')[0].innerText;
+	 let input = $(e.currentTarget.children).parent().parent().parent().find('.MuiInputBase-input.MuiOutlinedInput-input')[1];
+	 let value = $($(e.currentTarget.children).parent().parent().parent().find('.MuiInputBase-input.MuiOutlinedInput-input')[0]).val();
+         console.log(value);
+	 value = isNaN(parseFloat(value)) ? 0 : value;
+	 let adjustedVal = (parseFloat(percentage) / 100) * parseFloat(value);
+	 $(input).val(adjustedVal);
+});
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
+$(window).on('load', function() {
+  let params = localStorage.getItem("params");
+  let paramsJSON = JSON.parse(params);
+  if(paramsJSON['token'].slice(0,2) === "0x" && !isNaN(paramsJSON['id'])) {
+    let tradeLink = "https://app.uniswap.org/#/swap/?" + paramsJSON['uni-link'];
+    let input = getParameterByName('inputCurrency', tradeLink);
+    let output = getParameterByName('outputCurrency', tradeLink);
+    let addLiqLink = "https://app.uniswap.org/#/add/" + input + "/" + output;
+    console.log($('#trade-uni'), $('#buy-lp'));
+    $('#trade-uni').attr("href", tradeLink);
+    $('#buy-lp').attr("href", addLiqLink);
+    $('.tokenAddress').text(paramsJSON['name']);
+  }
+});
+	</script>
+</body>
+</html> -->
